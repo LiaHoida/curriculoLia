@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+body {
+    font-family: "Pixelify Sans", sans-serif;
+    
+}
+
+nav {
+    border-bottom: 2px solid black;
+
+}
+img{
+    border-radius: 100%;
+    max-width:200px;
+    max-height:200px;
+    width: auto;
+    height: auto;
+   display: flex;
+   float: left;
+}
+
+nav ul {
+    list-style: none;
+    text-decoration: none;
+    justify-content: end;
+    display: flex;
+    gap: 1rem;
+    height: 5rem;
+    background: rgb(255, 255, 255);
+    width: 100%;
+    padding-top: 1.5rem;
+    padding-right: 3rem;
+    margin: 0;
+}
+#init h1{
+    margin-top: 50px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+nav a {
+    color: black;
+}
+
+
+#init {
+    color: black;
+    min-height: 50vh;
+    padding: 200px;
+    padding-left:50px;
+    justify-content: end;
+    display: flex;
+    gap: 17rem;
+}
+#contato{
+    color: black;
+    min-height: 30vh;
+    padding: 50px;
+    border:2px solid black;
+}
+
+
+#experi{ 
+    color: black;
+    min-height: 50vh;
+    padding: 100px;
+   text-align: center;
+ 
+   justify-content: space-between;
+   
+}
+
+#experi li{
+    list-style:none;
+}
+
+.hr {
+    border-top:1px solid rgb(0, 0, 0);
+    border-bottom:1px solid rgb(0, 0, 0);
+    width: 300px;
+    position: absolute;
+   right: 50%;
+   left: 38%;
+  
+   
+  }
+#formacao{
+    color: black;
+    min-height: 50vh;
+    padding: 100px;
+    text-align: center;
+}
+
+#formacao h2{
+    display: flex;
+    justify-content: center;
+}
+
+#cursos {
+    text-align: center;
+    color: black;
+    min-height: 50vh;
+    padding: 100px;
+   
+}
+
